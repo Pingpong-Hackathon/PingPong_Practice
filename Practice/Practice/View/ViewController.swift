@@ -12,7 +12,7 @@ import Moya
 import SnapKit
 import FSCalendar
 
-class ViewController: UIViewController {
+class ViewController: BaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
