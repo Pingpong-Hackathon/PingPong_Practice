@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		A9B2B57C2747C20100A314B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B2B57B2747C20100A314B4 /* AppDelegate.swift */; };
 		A9B2B57E2747C20100A314B4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B2B57D2747C20100A314B4 /* SceneDelegate.swift */; };
-		A9B2B5802747C20100A314B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B2B57F2747C20100A314B4 /* ViewController.swift */; };
+		A9B2B5802747C20100A314B4 /* MainTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B2B57F2747C20100A314B4 /* MainTabbarController.swift */; };
 		A9B2B5852747C20100A314B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9B2B5842747C20100A314B4 /* Assets.xcassets */; };
 		A9B2B5882747C20100A314B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9B2B5862747C20100A314B4 /* LaunchScreen.storyboard */; };
 		A9B2B5912747C23200A314B4 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A9B2B5902747C23200A314B4 /* RxSwift */; };
@@ -19,17 +19,27 @@
 		A9B2B59B2747C27200A314B4 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = A9B2B59A2747C27200A314B4 /* SnapKit */; };
 		A9B2B59E2747C28700A314B4 /* FSCalendar in Frameworks */ = {isa = PBXBuildFile; productRef = A9B2B59D2747C28700A314B4 /* FSCalendar */; };
 		A9B2B5A42747C35A00A314B4 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B2B5A32747C35A00A314B4 /* BaseViewController.swift */; };
+		A9B2B5AC2747C66900A314B4 /* ContestExhibitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B2B5AB2747C66900A314B4 /* ContestExhibitViewController.swift */; };
+		A9B2B5AE2747C67D00A314B4 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B2B5AD2747C67D00A314B4 /* ChatViewController.swift */; };
+		A9B2B5B02747C68500A314B4 /* TeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B2B5AF2747C68500A314B4 /* TeamViewController.swift */; };
+		A9B2B5B22747C68B00A314B4 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B2B5B12747C68B00A314B4 /* CalendarViewController.swift */; };
+		A9B2B5B42747C69100A314B4 /* MyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B2B5B32747C69100A314B4 /* MyPageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A9B2B5782747C20100A314B4 /* Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Practice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9B2B57B2747C20100A314B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A9B2B57D2747C20100A314B4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A9B2B57F2747C20100A314B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A9B2B57F2747C20100A314B4 /* MainTabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabbarController.swift; sourceTree = "<group>"; };
 		A9B2B5842747C20100A314B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9B2B5872747C20100A314B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9B2B5892747C20100A314B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A9B2B5A32747C35A00A314B4 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		A9B2B5AB2747C66900A314B4 /* ContestExhibitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContestExhibitViewController.swift; sourceTree = "<group>"; };
+		A9B2B5AD2747C67D00A314B4 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		A9B2B5AF2747C68500A314B4 /* TeamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamViewController.swift; sourceTree = "<group>"; };
+		A9B2B5B12747C68B00A314B4 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		A9B2B5B32747C69100A314B4 /* MyPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +108,7 @@
 		A9B2B5A12747C32E00A314B4 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				A9B2B57F2747C20100A314B4 /* ViewController.swift */,
+				A9B2B5AA2747C64400A314B4 /* Tabbar */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -109,6 +119,59 @@
 				A9B2B5A32747C35A00A314B4 /* BaseViewController.swift */,
 			);
 			path = Base;
+			sourceTree = "<group>";
+		};
+		A9B2B5A52747C62100A314B4 /* ContestExhibit */ = {
+			isa = PBXGroup;
+			children = (
+				A9B2B5AB2747C66900A314B4 /* ContestExhibitViewController.swift */,
+			);
+			path = ContestExhibit;
+			sourceTree = "<group>";
+		};
+		A9B2B5A62747C62A00A314B4 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				A9B2B5AD2747C67D00A314B4 /* ChatViewController.swift */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		A9B2B5A72747C62F00A314B4 /* Team */ = {
+			isa = PBXGroup;
+			children = (
+				A9B2B5AF2747C68500A314B4 /* TeamViewController.swift */,
+			);
+			path = Team;
+			sourceTree = "<group>";
+		};
+		A9B2B5A82747C63700A314B4 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				A9B2B5B12747C68B00A314B4 /* CalendarViewController.swift */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		A9B2B5A92747C63C00A314B4 /* MyPage */ = {
+			isa = PBXGroup;
+			children = (
+				A9B2B5B32747C69100A314B4 /* MyPageViewController.swift */,
+			);
+			path = MyPage;
+			sourceTree = "<group>";
+		};
+		A9B2B5AA2747C64400A314B4 /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				A9B2B57F2747C20100A314B4 /* MainTabbarController.swift */,
+				A9B2B5A52747C62100A314B4 /* ContestExhibit */,
+				A9B2B5A62747C62A00A314B4 /* Chat */,
+				A9B2B5A72747C62F00A314B4 /* Team */,
+				A9B2B5A82747C63700A314B4 /* Calendar */,
+				A9B2B5A92747C63C00A314B4 /* MyPage */,
+			);
+			path = Tabbar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,10 +257,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9B2B5802747C20100A314B4 /* ViewController.swift in Sources */,
+				A9B2B5B22747C68B00A314B4 /* CalendarViewController.swift in Sources */,
+				A9B2B5B42747C69100A314B4 /* MyPageViewController.swift in Sources */,
+				A9B2B5802747C20100A314B4 /* MainTabbarController.swift in Sources */,
+				A9B2B5AC2747C66900A314B4 /* ContestExhibitViewController.swift in Sources */,
 				A9B2B5A42747C35A00A314B4 /* BaseViewController.swift in Sources */,
 				A9B2B57C2747C20100A314B4 /* AppDelegate.swift in Sources */,
+				A9B2B5AE2747C67D00A314B4 /* ChatViewController.swift in Sources */,
 				A9B2B57E2747C20100A314B4 /* SceneDelegate.swift in Sources */,
+				A9B2B5B02747C68500A314B4 /* TeamViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
