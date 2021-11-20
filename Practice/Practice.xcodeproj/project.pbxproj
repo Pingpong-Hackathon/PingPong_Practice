@@ -31,6 +31,10 @@
 		A9B2B5C3274873D200A314B4 /* CustomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B2B5C2274873D200A314B4 /* CustomColor.swift */; };
 		A9B2B5C62749586400A314B4 /* ContestCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B2B5C52749586300A314B4 /* ContestCollectionViewCell.swift */; };
 		A9B2B5C827495BED00A314B4 /* ContestImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B2B5C727495BED00A314B4 /* ContestImageCollectionViewCell.swift */; };
+		A9B2B5CB274966FB00A314B4 /* TeamFirstCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B2B5CA274966FB00A314B4 /* TeamFirstCollectionViewCell.swift */; };
+		A9B2B5CE2749684E00A314B4 /* TeamRecruitCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B2B5CD2749684E00A314B4 /* TeamRecruitCollectionViewCell.swift */; };
+		A9B2B5D127496A1400A314B4 /* TeamSecondCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B2B5D027496A1400A314B4 /* TeamSecondCollectionViewCell.swift */; };
+		A9B2B5D327496B7000A314B4 /* TeamImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B2B5D227496B7000A314B4 /* TeamImageCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +58,10 @@
 		A9B2B5C2274873D200A314B4 /* CustomColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColor.swift; sourceTree = "<group>"; };
 		A9B2B5C52749586300A314B4 /* ContestCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContestCollectionViewCell.swift; sourceTree = "<group>"; };
 		A9B2B5C727495BED00A314B4 /* ContestImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContestImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		A9B2B5CA274966FB00A314B4 /* TeamFirstCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamFirstCollectionViewCell.swift; sourceTree = "<group>"; };
+		A9B2B5CD2749684E00A314B4 /* TeamRecruitCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamRecruitCollectionViewCell.swift; sourceTree = "<group>"; };
+		A9B2B5D027496A1400A314B4 /* TeamSecondCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamSecondCollectionViewCell.swift; sourceTree = "<group>"; };
+		A9B2B5D227496B7000A314B4 /* TeamImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamImageCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +165,7 @@
 		A9B2B5A72747C62F00A314B4 /* Team */ = {
 			isa = PBXGroup;
 			children = (
+				A9B2B5C9274966DD00A314B4 /* TeamCell */,
 				A9B2B5AF2747C68500A314B4 /* TeamViewController.swift */,
 			);
 			path = Team;
@@ -233,6 +242,33 @@
 				A9B2B5C727495BED00A314B4 /* ContestImageCollectionViewCell.swift */,
 			);
 			path = ContestCell;
+			sourceTree = "<group>";
+		};
+		A9B2B5C9274966DD00A314B4 /* TeamCell */ = {
+			isa = PBXGroup;
+			children = (
+				A9B2B5CC2749681400A314B4 /* FirstCell */,
+				A9B2B5CF27496A0100A314B4 /* SecondCell */,
+			);
+			path = TeamCell;
+			sourceTree = "<group>";
+		};
+		A9B2B5CC2749681400A314B4 /* FirstCell */ = {
+			isa = PBXGroup;
+			children = (
+				A9B2B5CA274966FB00A314B4 /* TeamFirstCollectionViewCell.swift */,
+				A9B2B5CD2749684E00A314B4 /* TeamRecruitCollectionViewCell.swift */,
+			);
+			path = FirstCell;
+			sourceTree = "<group>";
+		};
+		A9B2B5CF27496A0100A314B4 /* SecondCell */ = {
+			isa = PBXGroup;
+			children = (
+				A9B2B5D027496A1400A314B4 /* TeamSecondCollectionViewCell.swift */,
+				A9B2B5D227496B7000A314B4 /* TeamImageCollectionViewCell.swift */,
+			);
+			path = SecondCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -319,10 +355,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9B2B5B22747C68B00A314B4 /* CalendarViewController.swift in Sources */,
+				A9B2B5CB274966FB00A314B4 /* TeamFirstCollectionViewCell.swift in Sources */,
 				A9B2B5B42747C69100A314B4 /* MyPageViewController.swift in Sources */,
 				A9B2B5802747C20100A314B4 /* MainTabbarController.swift in Sources */,
+				A9B2B5D127496A1400A314B4 /* TeamSecondCollectionViewCell.swift in Sources */,
 				A9B2B5C1274873CB00A314B4 /* CustomFont.swift in Sources */,
 				A9B2B5AC2747C66900A314B4 /* ContestExhibitViewController.swift in Sources */,
+				A9B2B5D327496B7000A314B4 /* TeamImageCollectionViewCell.swift in Sources */,
 				A9B2B5A42747C35A00A314B4 /* BaseViewController.swift in Sources */,
 				A9B2B57C2747C20100A314B4 /* AppDelegate.swift in Sources */,
 				A9B2B5BD274863A400A314B4 /* Protocol+ReusableCell.swift in Sources */,
@@ -331,6 +370,7 @@
 				A9B2B5AE2747C67D00A314B4 /* ChatViewController.swift in Sources */,
 				A9B2B57E2747C20100A314B4 /* SceneDelegate.swift in Sources */,
 				A9B2B5BF274863C900A314B4 /* Extenstion+CollectionCell.swift in Sources */,
+				A9B2B5CE2749684E00A314B4 /* TeamRecruitCollectionViewCell.swift in Sources */,
 				A9B2B5C62749586400A314B4 /* ContestCollectionViewCell.swift in Sources */,
 				A9B2B5B727485CDE00A314B4 /* UserChatCollectionViewCell.swift in Sources */,
 				A9B2B5B02747C68500A314B4 /* TeamViewController.swift in Sources */,
