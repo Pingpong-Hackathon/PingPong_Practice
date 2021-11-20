@@ -9,11 +9,11 @@ import UIKit
 
 final class MainTabbarController: UITabBarController {
 
-    let contestExhibitViewController = ContestExhibitViewController()
-    let chatViewController = ChatViewController()
-    let teamViewController = TeamViewController()
-    let calendarViewController = CalendarViewController()
-    let mypageViewController = MyPageViewController()
+    let contestExhibitViewController = UINavigationController(rootViewController: ContestExhibitViewController())
+    let chatViewController = UINavigationController(rootViewController: ChatViewController())
+    let teamViewController = UINavigationController(rootViewController: TeamViewController())
+    let calendarViewController = UINavigationController(rootViewController: CalendarViewController())
+    let mypageViewController = UINavigationController(rootViewController: MyPageViewController())
     
     override func viewDidLoad() {
         super.viewDidLoad()

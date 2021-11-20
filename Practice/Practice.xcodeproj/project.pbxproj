@@ -24,6 +24,9 @@
 		A9B2B5B02747C68500A314B4 /* TeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B2B5AF2747C68500A314B4 /* TeamViewController.swift */; };
 		A9B2B5B22747C68B00A314B4 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B2B5B12747C68B00A314B4 /* CalendarViewController.swift */; };
 		A9B2B5B42747C69100A314B4 /* MyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B2B5B32747C69100A314B4 /* MyPageViewController.swift */; };
+		A9B2B5B727485CDE00A314B4 /* ChatCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B2B5B627485CDE00A314B4 /* ChatCollectionViewCell.swift */; };
+		A9B2B5BD274863A400A314B4 /* Protocol+ReusableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B2B5BC274863A400A314B4 /* Protocol+ReusableCell.swift */; };
+		A9B2B5BF274863C900A314B4 /* Extenstion+CollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B2B5BE274863C900A314B4 /* Extenstion+CollectionCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +43,9 @@
 		A9B2B5AF2747C68500A314B4 /* TeamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamViewController.swift; sourceTree = "<group>"; };
 		A9B2B5B12747C68B00A314B4 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
 		A9B2B5B32747C69100A314B4 /* MyPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageViewController.swift; sourceTree = "<group>"; };
+		A9B2B5B627485CDE00A314B4 /* ChatCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatCollectionViewCell.swift; sourceTree = "<group>"; };
+		A9B2B5BC274863A400A314B4 /* Protocol+ReusableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Protocol+ReusableCell.swift"; sourceTree = "<group>"; };
+		A9B2B5BE274863C900A314B4 /* Extenstion+CollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extenstion+CollectionCell.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +84,7 @@
 		A9B2B57A2747C20100A314B4 /* Practice */ = {
 			isa = PBXGroup;
 			children = (
+				A9B2B5B827485D0400A314B4 /* Utility */,
 				A9B2B5A12747C32E00A314B4 /* View */,
 				A9B2B59F2747C30600A314B4 /* Application */,
 				A9B2B5A02747C31600A314B4 /* Resources */,
@@ -132,6 +139,7 @@
 		A9B2B5A62747C62A00A314B4 /* Chat */ = {
 			isa = PBXGroup;
 			children = (
+				A9B2B5B527485CCD00A314B4 /* Cell */,
 				A9B2B5AD2747C67D00A314B4 /* ChatViewController.swift */,
 			);
 			path = Chat;
@@ -172,6 +180,39 @@
 				A9B2B5A92747C63C00A314B4 /* MyPage */,
 			);
 			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		A9B2B5B527485CCD00A314B4 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A9B2B5B627485CDE00A314B4 /* ChatCollectionViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		A9B2B5B827485D0400A314B4 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				A9B2B5BA27485D1400A314B4 /* Extension */,
+				A9B2B5B927485D0F00A314B4 /* Protocol */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		A9B2B5B927485D0F00A314B4 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				A9B2B5BC274863A400A314B4 /* Protocol+ReusableCell.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		A9B2B5BA27485D1400A314B4 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A9B2B5BE274863C900A314B4 /* Extenstion+CollectionCell.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,8 +304,11 @@
 				A9B2B5AC2747C66900A314B4 /* ContestExhibitViewController.swift in Sources */,
 				A9B2B5A42747C35A00A314B4 /* BaseViewController.swift in Sources */,
 				A9B2B57C2747C20100A314B4 /* AppDelegate.swift in Sources */,
+				A9B2B5BD274863A400A314B4 /* Protocol+ReusableCell.swift in Sources */,
 				A9B2B5AE2747C67D00A314B4 /* ChatViewController.swift in Sources */,
 				A9B2B57E2747C20100A314B4 /* SceneDelegate.swift in Sources */,
+				A9B2B5BF274863C900A314B4 /* Extenstion+CollectionCell.swift in Sources */,
+				A9B2B5B727485CDE00A314B4 /* ChatCollectionViewCell.swift in Sources */,
 				A9B2B5B02747C68500A314B4 /* TeamViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
