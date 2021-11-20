@@ -21,7 +21,7 @@ final class ChatViewController: BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        collectionView.registerCell(ChatCollectionViewCell.self)
+        collectionView.registerCell(UserChatCollectionViewCell.self)
         collectionView.delegate = self
         collectionView.dataSource = self
     }
@@ -47,50 +47,19 @@ final class ChatViewController: BaseViewController {
 
 extension ChatViewController: UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
     
-    func numberOfSections(in collectionView: UICollectionView) -> Int {
-        return 4
-    }
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        switch section {
-        case 0:
-            return 1
-        case 1:
-            return 2
-        case 2:
-            return 3
-        case 3:
-            return 4
-        default:
-            return 0
-        }
+        return 5
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         
-        switch indexPath.section {
-        case 0:
-            let cell: ChatCollectionViewCell = collectionView.dequeueCollectionCell(for: indexPath)
-            
-            return cell
-        case 1:
-            let cell: ChatCollectionViewCell = collectionView.dequeueCollectionCell(for: indexPath)
-            
-            return cell
-        case 2:
-            let cell: ChatCollectionViewCell = collectionView.dequeueCollectionCell(for: indexPath)
-            
-            return cell
-        case 3:
-            let cell: ChatCollectionViewCell = collectionView.dequeueCollectionCell(for: indexPath)
-            
-            return cell
-        default:
-            return UICollectionViewCell()
-        }
+        let cell: UserChatCollectionViewCell = collectionView.dequeueCollectionCell(for: indexPath)
+        
+        return cell
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        return CGSize(width: view.frame.size.width, height: 100)
+        return CGSize(width: view.frame.size.width, height: 60)
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {

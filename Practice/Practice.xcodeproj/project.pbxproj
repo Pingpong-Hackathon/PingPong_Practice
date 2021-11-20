@@ -24,9 +24,11 @@
 		A9B2B5B02747C68500A314B4 /* TeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B2B5AF2747C68500A314B4 /* TeamViewController.swift */; };
 		A9B2B5B22747C68B00A314B4 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B2B5B12747C68B00A314B4 /* CalendarViewController.swift */; };
 		A9B2B5B42747C69100A314B4 /* MyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B2B5B32747C69100A314B4 /* MyPageViewController.swift */; };
-		A9B2B5B727485CDE00A314B4 /* ChatCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B2B5B627485CDE00A314B4 /* ChatCollectionViewCell.swift */; };
+		A9B2B5B727485CDE00A314B4 /* UserChatCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B2B5B627485CDE00A314B4 /* UserChatCollectionViewCell.swift */; };
 		A9B2B5BD274863A400A314B4 /* Protocol+ReusableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B2B5BC274863A400A314B4 /* Protocol+ReusableCell.swift */; };
 		A9B2B5BF274863C900A314B4 /* Extenstion+CollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B2B5BE274863C900A314B4 /* Extenstion+CollectionCell.swift */; };
+		A9B2B5C1274873CB00A314B4 /* CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B2B5C0274873CB00A314B4 /* CustomFont.swift */; };
+		A9B2B5C3274873D200A314B4 /* CustomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B2B5C2274873D200A314B4 /* CustomColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,9 +45,11 @@
 		A9B2B5AF2747C68500A314B4 /* TeamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamViewController.swift; sourceTree = "<group>"; };
 		A9B2B5B12747C68B00A314B4 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
 		A9B2B5B32747C69100A314B4 /* MyPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageViewController.swift; sourceTree = "<group>"; };
-		A9B2B5B627485CDE00A314B4 /* ChatCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatCollectionViewCell.swift; sourceTree = "<group>"; };
+		A9B2B5B627485CDE00A314B4 /* UserChatCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserChatCollectionViewCell.swift; sourceTree = "<group>"; };
 		A9B2B5BC274863A400A314B4 /* Protocol+ReusableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Protocol+ReusableCell.swift"; sourceTree = "<group>"; };
 		A9B2B5BE274863C900A314B4 /* Extenstion+CollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extenstion+CollectionCell.swift"; sourceTree = "<group>"; };
+		A9B2B5C0274873CB00A314B4 /* CustomFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFont.swift; sourceTree = "<group>"; };
+		A9B2B5C2274873D200A314B4 /* CustomColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,7 +189,7 @@
 		A9B2B5B527485CCD00A314B4 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
-				A9B2B5B627485CDE00A314B4 /* ChatCollectionViewCell.swift */,
+				A9B2B5B627485CDE00A314B4 /* UserChatCollectionViewCell.swift */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -211,6 +215,8 @@
 			isa = PBXGroup;
 			children = (
 				A9B2B5BE274863C900A314B4 /* Extenstion+CollectionCell.swift */,
+				A9B2B5C0274873CB00A314B4 /* CustomFont.swift */,
+				A9B2B5C2274873D200A314B4 /* CustomColor.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -301,14 +307,16 @@
 				A9B2B5B22747C68B00A314B4 /* CalendarViewController.swift in Sources */,
 				A9B2B5B42747C69100A314B4 /* MyPageViewController.swift in Sources */,
 				A9B2B5802747C20100A314B4 /* MainTabbarController.swift in Sources */,
+				A9B2B5C1274873CB00A314B4 /* CustomFont.swift in Sources */,
 				A9B2B5AC2747C66900A314B4 /* ContestExhibitViewController.swift in Sources */,
 				A9B2B5A42747C35A00A314B4 /* BaseViewController.swift in Sources */,
 				A9B2B57C2747C20100A314B4 /* AppDelegate.swift in Sources */,
 				A9B2B5BD274863A400A314B4 /* Protocol+ReusableCell.swift in Sources */,
+				A9B2B5C3274873D200A314B4 /* CustomColor.swift in Sources */,
 				A9B2B5AE2747C67D00A314B4 /* ChatViewController.swift in Sources */,
 				A9B2B57E2747C20100A314B4 /* SceneDelegate.swift in Sources */,
 				A9B2B5BF274863C900A314B4 /* Extenstion+CollectionCell.swift in Sources */,
-				A9B2B5B727485CDE00A314B4 /* ChatCollectionViewCell.swift in Sources */,
+				A9B2B5B727485CDE00A314B4 /* UserChatCollectionViewCell.swift in Sources */,
 				A9B2B5B02747C68500A314B4 /* TeamViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

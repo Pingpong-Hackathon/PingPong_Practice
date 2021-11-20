@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ChatCollectionViewCell: UICollectionViewCell {
+class UserChatCollectionViewCell: UICollectionViewCell {
     
     private let profileImage: UIImageView = {
         $0.image = UIImage(named: "contest")
@@ -57,6 +57,7 @@ class ChatCollectionViewCell: UICollectionViewCell {
         
         setConfigure()
         setConstraints()
+        
     }
     
     required init?(coder: NSCoder) {
