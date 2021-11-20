@@ -29,6 +29,8 @@
 		A9B2B5BF274863C900A314B4 /* Extenstion+CollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B2B5BE274863C900A314B4 /* Extenstion+CollectionCell.swift */; };
 		A9B2B5C1274873CB00A314B4 /* CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B2B5C0274873CB00A314B4 /* CustomFont.swift */; };
 		A9B2B5C3274873D200A314B4 /* CustomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B2B5C2274873D200A314B4 /* CustomColor.swift */; };
+		A9B2B5C62749586400A314B4 /* ContestCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B2B5C52749586300A314B4 /* ContestCollectionViewCell.swift */; };
+		A9B2B5C827495BED00A314B4 /* ContestImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B2B5C727495BED00A314B4 /* ContestImageCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +52,8 @@
 		A9B2B5BE274863C900A314B4 /* Extenstion+CollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extenstion+CollectionCell.swift"; sourceTree = "<group>"; };
 		A9B2B5C0274873CB00A314B4 /* CustomFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFont.swift; sourceTree = "<group>"; };
 		A9B2B5C2274873D200A314B4 /* CustomColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColor.swift; sourceTree = "<group>"; };
+		A9B2B5C52749586300A314B4 /* ContestCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContestCollectionViewCell.swift; sourceTree = "<group>"; };
+		A9B2B5C727495BED00A314B4 /* ContestImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContestImageCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +139,7 @@
 		A9B2B5A52747C62100A314B4 /* ContestExhibit */ = {
 			isa = PBXGroup;
 			children = (
+				A9B2B5C42749584D00A314B4 /* ContestCell */,
 				A9B2B5AB2747C66900A314B4 /* ContestExhibitViewController.swift */,
 			);
 			path = ContestExhibit;
@@ -219,6 +224,15 @@
 				A9B2B5C2274873D200A314B4 /* CustomColor.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		A9B2B5C42749584D00A314B4 /* ContestCell */ = {
+			isa = PBXGroup;
+			children = (
+				A9B2B5C52749586300A314B4 /* ContestCollectionViewCell.swift */,
+				A9B2B5C727495BED00A314B4 /* ContestImageCollectionViewCell.swift */,
+			);
+			path = ContestCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -313,9 +327,11 @@
 				A9B2B57C2747C20100A314B4 /* AppDelegate.swift in Sources */,
 				A9B2B5BD274863A400A314B4 /* Protocol+ReusableCell.swift in Sources */,
 				A9B2B5C3274873D200A314B4 /* CustomColor.swift in Sources */,
+				A9B2B5C827495BED00A314B4 /* ContestImageCollectionViewCell.swift in Sources */,
 				A9B2B5AE2747C67D00A314B4 /* ChatViewController.swift in Sources */,
 				A9B2B57E2747C20100A314B4 /* SceneDelegate.swift in Sources */,
 				A9B2B5BF274863C900A314B4 /* Extenstion+CollectionCell.swift in Sources */,
+				A9B2B5C62749586400A314B4 /* ContestCollectionViewCell.swift in Sources */,
 				A9B2B5B727485CDE00A314B4 /* UserChatCollectionViewCell.swift in Sources */,
 				A9B2B5B02747C68500A314B4 /* TeamViewController.swift in Sources */,
 			);
